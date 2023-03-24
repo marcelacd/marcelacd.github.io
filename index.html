@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <img class="pokemon" src="img/pokemon.png">
+  </nav>
+
+  <button onclick="cambiarColores()">
+    Cambiar color
+  </button>
+
+  <div class="form">
+    <div class="form-input">
+      <label for="">Ingrese el número de pokemones: </label>
+      <input type="text" id="numero-pokemones" maxlength="3" placeholder="Ingrese un número">
+    </div>
+    <button class="btn" onclick="generarPokemones()">Generar Pokemones</button>
+  </div>
+  <hr>
+
+  <section class="col-md-4 principal" id="principal">
+  </section>
+
+  <script src="js.js"></script>
+
+</body>
+
+</html>
