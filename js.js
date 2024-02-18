@@ -45,27 +45,12 @@ function pintarPokemon(pokemon) {
 }
 
 function pintar(x) {
-  // console.log(x.children[0].children[1])
+  console.log(x)
   x.children[0].children[1].style.display = "block"
-
-  // console.log(x.children[1]);
-  // x.style.height = "auto";
-  // x.style.width = "250px";
 }
 
 function despintar(x) {
   x.children[0].children[1].style.display = "none"
-
-  // x.style.height = "auto";
-  // x.style.width = "166px";
-  // document.getElementById("evento").style.display = "none"
-  // console.log(x);
-  // const content = document.getElementById("evento");
-  // content.innerHTML = `
-  // <p>Parrafo</p>
-  // `;
-  // var element = document.getElementById("evento");
-  // element.classList.toggle("block");
 }
 
 function BorrarPokemones() {
@@ -74,6 +59,6 @@ function BorrarPokemones() {
 }
 
 function cambiarColores() {
-  var element = document.body;
+  const element = document.body;
   element.classList.toggle("seconday-color");
 }
